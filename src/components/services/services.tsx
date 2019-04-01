@@ -7,7 +7,7 @@ import debounce from 'lodash/debounce';
 import ServicesStore from 'stores/services-store';
 import ServiceItem from 'components/service-item';
 import Spinner from 'components/common/spinner';
-import Input from 'components/common/text-input';
+import TextInput from 'components/common/text-input';
 import Button from 'components/common/button';
 import bem from 'bem-css-modules';
 
@@ -37,6 +37,7 @@ class Services extends React.Component<IServicesProps> {
     componentWillUnmount(): void {
         this._requestDebounced.cancel();
         this.props.services.cancelFetch();
+        this.props.services.clear();
     }
 
     private _handleChangeFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -83,15 +84,17 @@ class Services extends React.Component<IServicesProps> {
             >
                 Фильтры
                 <div className={b('filter-controls')}>
-                    <Input
-                        onChange={this._handleChangeFilter}
-                        disabled={isLoading}
-                        value={filterText}
-                        size="medium"
-                    />
+                    <div className={b('input-filter')}>
+                        <TextInput
+                            onChange={this._handleChangeFilter}
+                            disabled={isLoading}
+                            value={filterText}
+                            size="large"
+                        />
+                    </div>
                     <div className={b('button-reset')}>
                         <Button
-                            size="medium"
+                            size="large"
                             type="submit"
                             disabled={isLoading || !filterText}
                         >

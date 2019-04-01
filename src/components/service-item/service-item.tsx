@@ -37,7 +37,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
                 <TextInput
                     value={item.promocode}
                     readOnly
-                    size="medium"
+                    size="large"
                     icon="copy"
                     onClick={this._handleClick}
                 />
@@ -52,7 +52,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
             <div className={b('link')}>
                 <Button
                     href={item.link}
-                    size="medium"
+                    size="large"
                     style="color"
                 >
                     Получить промокод
