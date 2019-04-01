@@ -1,0 +1,23 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+
+    &_active,
+    &:hover {
+        opacity: 1;
+    }
+
+    &::before {
+        content: '';
+        border-radius: 50%;
+        border: 3px solid var(--color-white);
+        display: block;
+        height: 17px;
+        width: 17px;
+    }
+}

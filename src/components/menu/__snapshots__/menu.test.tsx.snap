@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Menu Default 1`] = `
+<div
+  className="storybook-info-wrapper"
+>
+  <h3
+    className="storybook-info-wrapper__title"
+  >
+    Default
+  </h3>
+  <div
+    className="storybook-info-wrapper__item"
+  >
+    <nav>
+      <a
+        className="menu-item"
+        href="/one"
+        onClick={[Function]}
+        title="Доска"
+      />
+      <a
+        className="menu-item"
+        href="/one_1"
+        onClick={[Function]}
+        title="Сценарии"
+      />
+      <a
+        className="menu-item menu-item_active"
+        href="/one_2"
+        onClick={[Function]}
+        title="База скиллов"
+      />
+    </nav>
+  </div>
+</div>
+`;

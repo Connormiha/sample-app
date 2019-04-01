@@ -1,0 +1,30 @@
+.spinner {
+    animation: rotate-animation 1s infinite linear;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-color: var(--color-blue);
+    border-style: solid;
+    pointer-events: none;
+    border-radius: 50%;
+    clip-path: inset(0 50% 0 0);
+
+    &_size {
+        &_small {
+            width: 16px;
+            height: 16px;
+            border-width: 6px;
+        }
+
+        &_medium {
+            width: 28px;
+            height: 28px;
+            border-width: 6px;
+        }
+
+        &_large {
+            width: 80px;
+            height: 80px;
+            border-width: 6px;
+        }
+    }
+}

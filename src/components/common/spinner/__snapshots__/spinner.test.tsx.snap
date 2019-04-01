@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Spinner Default 1`] = `
+<div
+  className="storybook-info-wrapper"
+>
+  <h3
+    className="storybook-info-wrapper__title"
+  >
+    Default
+  </h3>
+  <div
+    className="storybook-info-wrapper__item"
+  >
+    <div
+      className="spinner spinner_size_xlarge"
+    />
+    <div
+      className="spinner spinner_size_large"
+    />
+    <div
+      className="spinner spinner_size_medium"
+    />
+    <div
+      className="spinner spinner_size_small"
+    />
+  </div>
+</div>
+`;

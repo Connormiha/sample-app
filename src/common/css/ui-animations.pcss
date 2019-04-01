@@ -1,0 +1,30 @@
+@keyframes rotate-animation {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes hide-notification-animation {
+    0% {
+        opacity: 1;
+        height: var(--height-notification-item);
+    }
+
+    50% {
+        transform: translateX(100%);
+        height: var(--height-notification-item);
+        margin-bottom: var(--space-notification-item);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+        height: 0;
+        margin-bottom: 0;
+    }
+}

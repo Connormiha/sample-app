@@ -1,0 +1,60 @@
+.notification-item {
+    position: relative;
+    margin-bottom: var(--space-notification-item);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow-popup-small);
+    overflow: hidden;
+    display: flex;
+    height: var(--height-notification-item);
+    color: var(--color-white);
+
+    &__content {
+        padding: 10px 20px 10px 10px;
+    }
+
+    &_type {
+        &_error {
+            background: var(--color-red);
+        }
+
+        &_warning {
+            background: var(--color-gray);
+        }
+
+        &_info {
+            background: var(--color-green);
+        }
+    }
+
+    &_hidden {
+        height: 0;
+        animation: hide-notification-animation 1s;
+    }
+
+    &__title {
+        font-size: var(--font-sizes-large);
+        font-weight: bold;
+        margin: 0 0 12px;
+    }
+
+    &__message {
+        font-size: var(--font-sizes-small);
+    }
+
+    &__close {
+        background: transparent;
+        border: 0;
+        color: var(--color-white);
+        padding: 0;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+        outline: 0;
+
+        &:focus,
+        &:hover {
+            color: var(--color-black);
+        }
+    }
+}

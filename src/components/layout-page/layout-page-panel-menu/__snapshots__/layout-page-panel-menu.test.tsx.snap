@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Panel menu Default 1`] = `
+<section
+  className="layout-page-panel-menu"
+>
+  <div
+    className="layout-page-panel-menu__logo"
+  >
+    <span
+      className="icon icon_name_logo icon_size_large"
+    />
+  </div>
+  <div
+    className="layout-page-panel-menu__menu"
+  >
+    <nav>
+      <a
+        className="menu-item"
+        href="/some-servive-1"
+        onClick={[Function]}
+        title="Сервис 1"
+      />
+      <a
+        className="menu-item"
+        href="/some-servive-2"
+        onClick={[Function]}
+        title="Сервис 2"
+      />
+      <a
+        className="menu-item"
+        href="/some-servive-3"
+        onClick={[Function]}
+        title="Сервис 3"
+      />
+      <a
+        className="menu-item"
+        href="/some-servive-4"
+        onClick={[Function]}
+        title="Сервис 4"
+      />
+      <a
+        className="menu-item"
+        href="/services"
+        onClick={[Function]}
+        title="Сервисы"
+      />
+      <a
+        className="menu-item"
+        href="/some-servive-5"
+        onClick={[Function]}
+        title="Сервис 5"
+      />
+      <a
+        className="menu-item"
+        href="/some-servive-6"
+        onClick={[Function]}
+        title="Сервис 6"
+      />
+    </nav>
+  </div>
+</section>
+`;

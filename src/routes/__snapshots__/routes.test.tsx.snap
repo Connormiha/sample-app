@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route should render <PageNotFound /> 1`] = `
+<DocumentFragment>
+  <div
+    class="layout-page-main"
+  >
+    <section
+      class="layout-page-main__left"
+    >
+      <section
+        class="layout-page-panel-menu"
+      >
+        <div
+          class="layout-page-panel-menu__logo"
+        >
+          <span
+            class="icon icon_name_logo icon_size_large"
+          />
+        </div>
+        <div
+          class="layout-page-panel-menu__menu"
+        >
+          <nav>
+            <a
+              class="menu-item"
+              href="/some-servive-1"
+              title="Сервис 1"
+            />
+            <a
+              class="menu-item"
+              href="/some-servive-2"
+              title="Сервис 2"
+            />
+            <a
+              class="menu-item"
+              href="/some-servive-3"
+              title="Сервис 3"
+            />
+            <a
+              class="menu-item"
+              href="/some-servive-4"
+              title="Сервис 4"
+            />
+            <a
+              class="menu-item"
+              href="/services"
+              title="Сервисы"
+            />
+            <a
+              class="menu-item"
+              href="/some-servive-5"
+              title="Сервис 5"
+            />
+            <a
+              class="menu-item"
+              href="/some-servive-6"
+              title="Сервис 6"
+            />
+          </nav>
+        </div>
+      </section>
+    </section>
+    <section
+      class="layout-page-main__right"
+    >
+      <header>
+        <div
+          class="layout-page-header"
+        >
+          <div />
+          <div
+            class="layout-page-header__right"
+          >
+            .
+          </div>
+        </div>
+      </header>
+      <main
+        class="layout-page-main__content"
+      >
+        Несуществующая страница
+      </main>
+    </section>
+  </div>
+</DocumentFragment>
+`;

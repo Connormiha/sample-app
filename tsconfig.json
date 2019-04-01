@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "baseUrl" : "src",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "es2018"]
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Notifications Default 1`] = `
+<div
+  className="notifications"
+>
+  <div
+    className="notification-item notification-item_type_error"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="notification-item__content"
+    >
+      <div
+        className="notification-item__title"
+      >
+        Wrong User id
+      </div>
+      <div
+        className="notification-item__message"
+      >
+        There is no such user with id 100500
+      </div>
+    </div>
+    <button
+      className="notification-item__close"
+      onClick={[Function]}
+      title="Закрыть"
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="notification-item notification-item_type_warning"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="notification-item__content"
+    >
+      <div
+        className="notification-item__title"
+      >
+        Not all required fields ready
+      </div>
+      <div
+        className="notification-item__message"
+      >
+        There are name warnings
+      </div>
+    </div>
+    <button
+      className="notification-item__close"
+      onClick={[Function]}
+      title="Закрыть"
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="notification-item notification-item_type_info"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="notification-item__content"
+    >
+      <div
+        className="notification-item__title"
+      >
+        Creating user complete
+      </div>
+      <div
+        className="notification-item__message"
+      >
+        User with name John was created
+      </div>
+    </div>
+    <button
+      className="notification-item__close"
+      onClick={[Function]}
+      title="Закрыть"
+    >
+      X
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+@each $val in 300, 400, 600 {
+    @font-face {
+        font-family: 'Open Sans';
+        font-weight: $(val);
+        src:
+            url("~common/fonts/open-sans-$(val).woff2") format("woff2")/*,
+            url("~common/fonts/open-sans-$(val).woff") format("woff")*/;
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        font-weight: $(val);
+        font-style: italic;
+        src:
+            url("~common/fonts/open-sans-$(val)italic.woff2") format("woff2")/*,
+            url("~common/fonts/open-sans-$(val)italic.woff") format("woff")*/;
+    }
+}
+
+body {
+    margin: 0;
+    background: var(--color-main-background);
+    font-family: var(--font-family);
+    font-size: var(--font-sizes-small);
+}

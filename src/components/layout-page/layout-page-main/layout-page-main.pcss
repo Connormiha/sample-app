@@ -1,0 +1,20 @@
+.layout-page-main {
+    height: 100vh;
+    display: flex;
+
+    &__left {
+        width: 80px;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    &__content {
+        flex-grow: 1;
+        padding: 40px 80px;
+        overflow: auto;
+    }
+}
