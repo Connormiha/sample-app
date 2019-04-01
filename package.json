@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rm -fr build && NODE_ENV=production TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack",
     "coverage": "jest --coverage",
-    "lint": "tsc --noEmit -p src/client && stylelint \"src/client/**/*.pcss\" && echo \"There are no error in codestyle.\"",
+    "lint": "tsc --noEmit -p ./ && stylelint \"src/**/*.pcss\" && echo \"There are no error in codestyle.\"",
     "create:component": "node ./tools/create-react-component.js",
     "start": "TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-dev-server",
     "test": "jest --no-cache",

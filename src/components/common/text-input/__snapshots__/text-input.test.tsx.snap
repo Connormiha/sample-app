@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots TextInput Default 1`] = `
+<div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Default
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={false}
+                type="text"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Invalid
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small text-input__input_invalid"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium text-input__input_invalid"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large text-input__input_invalid"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={false}
+                type="text"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Disabled
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small"
+                disabled={true}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium"
+                disabled={true}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large"
+                disabled={true}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={false}
+                type="text"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Readonly
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={true}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={true}
+                type="text"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={true}
+                type="text"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Type password
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="password"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="password"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={false}
+                type="password"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="storybook-table"
+  >
+    <h1
+      className="storybook-table__title"
+    >
+      Type number
+    </h1>
+    <hr />
+    <table
+      className="storybook-table__table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="storybook-table__td storybook-table__td_width_small"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_small"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="number"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_medium"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_medium"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Place holder input"
+                readOnly={false}
+                type="number"
+                value="Hello input!"
+              />
+            </div>
+          </td>
+          <td
+            className="storybook-table__td storybook-table__td_width_large"
+          >
+            <div
+              className="text-input"
+            >
+              <input
+                className="text-input__input text-input__input_size_large"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Enter your name"
+                readOnly={false}
+                type="number"
+                value=""
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

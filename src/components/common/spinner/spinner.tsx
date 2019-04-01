@@ -4,7 +4,7 @@ import bem from 'bem-css-modules';
 
 const b = bem(style);
 
-export type ISpinnerSize = 'small' | 'medium' | 'large' | 'xlarge';
+export type ISpinnerSize = 'small' | 'medium' | 'large';
 
 interface ISpinnerProps {
     size: ISpinnerSize;

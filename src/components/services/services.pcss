@@ -1,3 +1,26 @@
 .services {
+    position: relative;
 
+    &__title {
+        font-size: var(--font-sizes-xlarge);
+    }
+
+    &__button-reset {
+        margin: 0 0 0 5px;
+    }
+
+    &__filter {
+        color: var(--color-gray);
+    }
+
+    &__filter-controls {
+        display: flex;
+    }
+
+    &__spinner {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
 }

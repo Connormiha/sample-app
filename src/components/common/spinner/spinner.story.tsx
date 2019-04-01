@@ -7,7 +7,7 @@ import Spinner, {ISpinnerSize} from './spinner';
 storiesOf('Spinner', module)
     .addDecorator(StorybookItemDecorator)
     .addWithJSX('Default', () => {
-        return ['xlarge', 'large', 'medium', 'small'].map(
+        return ['large', 'medium', 'small'].map(
             (size: ISpinnerSize) => <Spinner size={size} key={size} />
         );
     });

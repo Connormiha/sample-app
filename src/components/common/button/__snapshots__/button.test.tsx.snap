@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Color 1`] = `
+<div>
+  <h2>
+    Default
+  </h2>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_small button_style_color"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_medium button_style_color"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_large button_style_color"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <h2>
+    Disabled
+  </h2>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_small button_style_color"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_medium button_style_color"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_large button_style_color"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Transparent 1`] = `
+<div>
+  <h2>
+    Default
+  </h2>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_small button_style_transparent"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_medium button_style_transparent"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_large button_style_transparent"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <h2>
+    Disabled
+  </h2>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_small button_style_transparent"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_medium button_style_transparent"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": "0 0 10px 20px",
+        "verticalAlign": "top",
+      }
+    }
+  >
+    <button
+      className="button button_size_large button_style_transparent"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Hello Button!
+    </button>
+  </div>
+</div>
+`;

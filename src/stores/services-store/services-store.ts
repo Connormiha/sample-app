@@ -32,17 +32,21 @@ export default class ServicesStore {
         );
     }
 
-    fetchItems(): Promise<void> {
+    @action
+    clear(): void {
+        this.items.clear();
+    }
+
+    fetchItems = (): Promise<void> => {
         this.setLoadingStatus();
 
-        if (this._previousRequest) {
-            this._previousRequest.cancel();
-        }
+        this.cancelFetch();
 
-        const promise = api.getServices(this.filterText);
+        const promise = api.getServices(this.filterText.toLowerCase());
 
         this._previousRequest = asyncAction(promise, {
             success: (result) => {
+                this.clear();
                 this.addItems(result);
             },
 
@@ -52,5 +56,11 @@ export default class ServicesStore {
         });
 
         return this._previousRequest.promise;
+    }
+
+    cancelFetch(): void {
+        if (this._previousRequest) {
+            this._previousRequest.cancel();
+        }
     }
 }

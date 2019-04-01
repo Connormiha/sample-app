@@ -1,0 +1,75 @@
+.button {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: var(--font-sizes-normal);
+    max-width: 100%;
+    overflow: hidden;
+    outline: none;
+    word-break: break-word;
+    text-decoration: none;
+    transition: all 0.3s;
+    width: 205px;
+
+    &_size {
+        &_small {
+            font-size: var(--font-sizes-small);
+            height: 24px;
+            padding: 0 16px;
+        }
+
+        &_medium {
+            font-size: var(--font-sizes-small);
+            height: 32px;
+            padding: 0 16px;
+        }
+
+        &_large {
+            font-size: var(--font-sizes-normal);
+            height: 40px;
+            padding: 0 40px;
+        }
+    }
+
+    &_style {
+        &_color {
+            background: var(--color-blue);
+            border: 0;
+            color: var(--color-white);
+
+            &:active,
+            &:hover,
+            &:focus {
+                background: var(--color-dark-blue);
+            }
+        }
+
+        &_transparent {
+            background: transparent;
+            border-color: var(--color-black);
+            color: var(--color-black);
+
+            &:hover,
+            &:focus {
+                border-color: var(--color-blue);
+                color: var(--color-blue);
+            }
+
+            &:active {
+                border-color: var(--color-dark-blue);
+                color: var(--color-dark-blue);
+            }
+        }
+    }
+
+    &_disabled,
+    &:disabled {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+}

@@ -13,9 +13,6 @@ exports[`Storyshots Spinner Default 1`] = `
     className="storybook-info-wrapper__item"
   >
     <div
-      className="spinner spinner_size_xlarge"
-    />
-    <div
       className="spinner spinner_size_large"
     />
     <div
