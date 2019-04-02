@@ -35,6 +35,10 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
     private _renderPromocode(): React.ReactNode {
         const {item} = this.props;
 
+        if (!item.promocode) {
+            return null;
+        }
+
         return (
             <div className={b('promocode')}>
                 <span className={b('promocode-text')}>

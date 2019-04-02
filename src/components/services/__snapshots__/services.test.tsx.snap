@@ -13,7 +13,7 @@ exports[`Storyshots Servies Default 1`] = `
     className="services__filter"
     onSubmit={[Function]}
   >
-    Фильтры
+    Фильтр
     <div
       className="services__filter-controls"
     >
@@ -35,7 +35,7 @@ exports[`Storyshots Servies Default 1`] = `
         className="services__button-reset"
       >
         <button
-          className="button button_size_large button_style_transparent"
+          className="button button_size_large button_disabled button_style_transparent"
           disabled={true}
           type="submit"
         >
@@ -50,17 +50,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Nethouse.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Конструктор сайтов
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -82,15 +88,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://nethouse.ru/?p=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -100,17 +106,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Appfollow.io
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         SDK
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -132,15 +144,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://appfollow.io/+travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -150,17 +162,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Semrush.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Анализ
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -182,15 +200,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.semrush.com/sem/?ref=2016127405"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -200,17 +218,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         logaster.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Логотип
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -232,15 +256,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.logaster.ru/?utm_source=travelpayouts&utm_medium=Travelpayouts_market_25off&utm_content=banner&utm_campaign=Travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -250,17 +274,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         reg.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         SSL
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -282,15 +312,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.reg.ru/ssl-certificate/?utm_source=travel&utm_campaign=travelssl&utm_medium=email"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -300,17 +330,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Seolib.ru 
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Анализ
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -332,15 +368,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://seolib.ru/info/monitoring_positions?utm_source=aviasales&utm_campaign=marketplace&utm_medium=cabinet&utm_content=bonus"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -350,17 +386,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         lpgenerator.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Лидогенерация
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -382,15 +424,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://lpgenerator.ru/?partner_id=c1b4cc"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -400,17 +442,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Majordomo.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Хостинг
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -432,15 +480,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.majordomo.ru/?utm_source=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -450,17 +498,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Setup.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Конструктор сайтов 2
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -482,15 +536,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://www.setup.ru/instructions/promocode"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -500,17 +554,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         umi.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Конструктор сайтов 3
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -532,15 +592,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://umi.ru/affiliate/?partner_id=3728"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -550,17 +610,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         ukit.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Конструктор сайтов
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -582,15 +648,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href=" https://ukit.com/ru?utm_source=aviasales&utm_medium=email&utm_campaign=ukit_aviasales"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -600,17 +666,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         topvisor.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Аналитика
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -632,15 +704,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://topvisor.ru/promo/travelpayouts/?utm_source=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -650,17 +722,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         netology.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -682,15 +760,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://netology.ru"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -700,17 +778,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         seopult.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Продвижение сайта
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -732,15 +816,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://promopult.ru/ref/0e279a2772d18ed5"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -750,17 +834,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         sendpulse.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Рассылка
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -782,15 +872,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://sendpulse.com/ru/features/email?coupon=TRVL-PAY-OUTS&utm_source=travelpayouts&utm_medium=referral&utm_campaign=travelpayouts-coupon"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -800,47 +890,27 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Turbotext.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Биржа контента
       </p>
     </div>
     <div
-      className="service-item__promocode"
-    >
-      <span>
-        Промокод
-      </span>
-      <div
-        className="text-input"
-      >
-        <input
-          className="text-input__input text-input__input_size_large"
-          onClick={[Function]}
-          readOnly={true}
-          value=""
-        />
-        <div
-          className="text-input__icon"
-        >
-          <span
-            className="icon icon_name_copy icon_size_small"
-          />
-        </div>
-      </div>
-    </div>
-    <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://turbotext.ru/promo/129/reg/?utm_source=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -850,17 +920,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         jivosite.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Чат
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -882,15 +958,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.jivosite.ru/?utm_source=newsletter&utm_medium=email&utm_content=q1&utm_campaign=travelpayouts_gift_14_03_2017"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -900,17 +976,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Witget.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Виджет
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -932,15 +1014,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://witget.com/?partner=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -950,17 +1032,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Spywords.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Анализ
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -982,15 +1070,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://spywords.ru?utm_source=travelpayouts&utm_medium=display&utm_campaign=partner_discount"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1000,17 +1088,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Etxt.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Биржа контента
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1032,15 +1126,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.etxt.ru/?utm_source=promocode&utm_campaign=travelpayouts&utm_medium=cpa&utm_term=300&utm_content=280217"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1050,17 +1144,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Roistat.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Аналитика
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1082,15 +1182,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://cloud.roistat.com/user/register "
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1100,17 +1200,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Serpstat.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Анализ
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1132,15 +1238,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://serpstat.com/users/profile/?utm_medium=email&utm_source=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1150,17 +1256,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         HideMy.name
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         VPN
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1182,12 +1294,12 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <button
         className="button button_size_large button_style_color"
       >
-        Получить промокод
+        Получить бонус
       </button>
     </div>
   </div>
@@ -1197,17 +1309,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         webhost1.ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Хостинг
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1229,15 +1347,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://webhost1.ru/?utm_source=travelpayouts"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1247,17 +1365,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Mail.Ru
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Облако 
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1279,15 +1403,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://biz.mail.ru/?utm_source=travelpayout "
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1297,17 +1421,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         Unisender.com
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Рассылка
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1329,15 +1459,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="https://www.unisender.com/ru/about/bonusy/bonus15?utm_source=travelpayouts&utm_medium=partners&utm_content=7&utm_campaign=email"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>
@@ -1347,17 +1477,23 @@ exports[`Storyshots Servies Default 1`] = `
     <div
       className="service-item__name"
     >
-      <h3>
+      <h3
+        className="service-item__title"
+      >
         getuniq.me
       </h3>
-      <p>
+      <p
+        className="service-item__description"
+      >
         Контекстная реклама
       </p>
     </div>
     <div
       className="service-item__promocode"
     >
-      <span>
+      <span
+        className="service-item__promocode-text"
+      >
         Промокод
       </span>
       <div
@@ -1379,15 +1515,15 @@ exports[`Storyshots Servies Default 1`] = `
       </div>
     </div>
     <div
-      className=""
+      className="service-item__link"
     >
       <a
-        className="button button_size_large button_style_color"
+        className="button button_size_large button_full-width button_style_color"
         href="http://travelpayouts.getuniq.me"
         rel="nofollow noopener"
         target="_blank"
       >
-        Получить промокод
+        Получить бонус
       </a>
     </div>
   </div>

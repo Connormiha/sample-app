@@ -69,7 +69,7 @@ exports[`Storyshots Button Color 1`] = `
     }
   >
     <button
-      className="button button_size_small button_style_color"
+      className="button button_size_small button_disabled button_style_color"
       disabled={true}
       onClick={[Function]}
     >
@@ -86,7 +86,7 @@ exports[`Storyshots Button Color 1`] = `
     }
   >
     <button
-      className="button button_size_medium button_style_color"
+      className="button button_size_medium button_disabled button_style_color"
       disabled={true}
       onClick={[Function]}
     >
@@ -103,7 +103,7 @@ exports[`Storyshots Button Color 1`] = `
     }
   >
     <button
-      className="button button_size_large button_style_color"
+      className="button button_size_large button_disabled button_style_color"
       disabled={true}
       onClick={[Function]}
     >
@@ -182,7 +182,7 @@ exports[`Storyshots Button Transparent 1`] = `
     }
   >
     <button
-      className="button button_size_small button_style_transparent"
+      className="button button_size_small button_disabled button_style_transparent"
       disabled={true}
       onClick={[Function]}
     >
@@ -199,7 +199,7 @@ exports[`Storyshots Button Transparent 1`] = `
     }
   >
     <button
-      className="button button_size_medium button_style_transparent"
+      className="button button_size_medium button_disabled button_style_transparent"
       disabled={true}
       onClick={[Function]}
     >
@@ -216,7 +216,7 @@ exports[`Storyshots Button Transparent 1`] = `
     }
   >
     <button
-      className="button button_size_large button_style_transparent"
+      className="button button_size_large button_disabled button_style_transparent"
       disabled={true}
       onClick={[Function]}
     >

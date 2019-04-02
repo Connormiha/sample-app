@@ -8,7 +8,7 @@ export default {
     next_payout: 'К выплате',
     reset: 'Сбросить',
     filter: 'Фильтр',
-    get_promocode: 'Получить промокод',
+    get_promocode: 'Получить бонус',
     promocode: 'Промокод',
     services: {
         title: 'Сервисы'
