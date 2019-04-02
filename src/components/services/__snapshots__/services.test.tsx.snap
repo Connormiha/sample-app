@@ -1,0 +1,1395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Servies Default 1`] = `
+<section
+  className="services"
+>
+  <h1
+    className="services__title"
+  >
+    Сервисы
+  </h1>
+  <form
+    className="services__filter"
+    onSubmit={[Function]}
+  >
+    Фильтры
+    <div
+      className="services__filter-controls"
+    >
+      <div
+        className="services__input-filter"
+      >
+        <div
+          className="text-input"
+        >
+          <input
+            className="text-input__input text-input__input_size_large"
+            disabled={false}
+            onChange={[Function]}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="services__button-reset"
+      >
+        <button
+          className="button button_size_large button_style_transparent"
+          disabled={true}
+          type="submit"
+        >
+          Сбросить
+        </button>
+      </div>
+    </div>
+  </form>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Nethouse.ru
+      </h3>
+      <p>
+        Конструктор сайтов
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://nethouse.ru/?p=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Appfollow.io
+      </h3>
+      <p>
+        SDK
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://appfollow.io/+travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Semrush.com
+      </h3>
+      <p>
+        Анализ
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.semrush.com/sem/?ref=2016127405"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        logaster.ru
+      </h3>
+      <p>
+        Логотип
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.logaster.ru/?utm_source=travelpayouts&utm_medium=Travelpayouts_market_25off&utm_content=banner&utm_campaign=Travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        reg.ru
+      </h3>
+      <p>
+        SSL
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.reg.ru/ssl-certificate/?utm_source=travel&utm_campaign=travelssl&utm_medium=email"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Seolib.ru 
+      </h3>
+      <p>
+        Анализ
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://seolib.ru/info/monitoring_positions?utm_source=aviasales&utm_campaign=marketplace&utm_medium=cabinet&utm_content=bonus"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        lpgenerator.ru
+      </h3>
+      <p>
+        Лидогенерация
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://lpgenerator.ru/?partner_id=c1b4cc"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Majordomo.ru
+      </h3>
+      <p>
+        Хостинг
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.majordomo.ru/?utm_source=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Setup.ru
+      </h3>
+      <p>
+        Конструктор сайтов 2
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://www.setup.ru/instructions/promocode"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        umi.com
+      </h3>
+      <p>
+        Конструктор сайтов 3
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://umi.ru/affiliate/?partner_id=3728"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        ukit.com
+      </h3>
+      <p>
+        Конструктор сайтов
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpаyouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href=" https://ukit.com/ru?utm_source=aviasales&utm_medium=email&utm_campaign=ukit_aviasales"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        topvisor.com
+      </h3>
+      <p>
+        Аналитика
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://topvisor.ru/promo/travelpayouts/?utm_source=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        netology.ru
+      </h3>
+      <p>
+        
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://netology.ru"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        seopult.ru
+      </h3>
+      <p>
+        Продвижение сайта
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://promopult.ru/ref/0e279a2772d18ed5"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        sendpulse.com
+      </h3>
+      <p>
+        Рассылка
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://sendpulse.com/ru/features/email?coupon=TRVL-PAY-OUTS&utm_source=travelpayouts&utm_medium=referral&utm_campaign=travelpayouts-coupon"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Turbotext.ru
+      </h3>
+      <p>
+        Биржа контента
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value=""
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://turbotext.ru/promo/129/reg/?utm_source=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        jivosite.ru
+      </h3>
+      <p>
+        Чат
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.jivosite.ru/?utm_source=newsletter&utm_medium=email&utm_content=q1&utm_campaign=travelpayouts_gift_14_03_2017"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Witget.com
+      </h3>
+      <p>
+        Виджет
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://witget.com/?partner=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Spywords.ru
+      </h3>
+      <p>
+        Анализ
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://spywords.ru?utm_source=travelpayouts&utm_medium=display&utm_campaign=partner_discount"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Etxt.ru
+      </h3>
+      <p>
+        Биржа контента
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.etxt.ru/?utm_source=promocode&utm_campaign=travelpayouts&utm_medium=cpa&utm_term=300&utm_content=280217"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Roistat.com
+      </h3>
+      <p>
+        Аналитика
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://cloud.roistat.com/user/register "
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Serpstat.com
+      </h3>
+      <p>
+        Анализ
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://serpstat.com/users/profile/?utm_medium=email&utm_source=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        HideMy.name
+      </h3>
+      <p>
+        VPN
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <button
+        className="button button_size_large button_style_color"
+      >
+        Получить промокод
+      </button>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        webhost1.ru
+      </h3>
+      <p>
+        Хостинг
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://webhost1.ru/?utm_source=travelpayouts"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Mail.Ru
+      </h3>
+      <p>
+        Облако 
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://biz.mail.ru/?utm_source=travelpayout "
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        Unisender.com
+      </h3>
+      <p>
+        Рассылка
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="https://www.unisender.com/ru/about/bonusy/bonus15?utm_source=travelpayouts&utm_medium=partners&utm_content=7&utm_campaign=email"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+  <div
+    className="service-item"
+  >
+    <div
+      className="service-item__name"
+    >
+      <h3>
+        getuniq.me
+      </h3>
+      <p>
+        Контекстная реклама
+      </p>
+    </div>
+    <div
+      className="service-item__promocode"
+    >
+      <span>
+        Промокод
+      </span>
+      <div
+        className="text-input"
+      >
+        <input
+          className="text-input__input text-input__input_size_large"
+          onClick={[Function]}
+          readOnly={true}
+          value="travelpayouts"
+        />
+        <div
+          className="text-input__icon"
+        >
+          <span
+            className="icon icon_name_copy icon_size_small"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <a
+        className="button button_size_large button_style_color"
+        href="http://travelpayouts.getuniq.me"
+        rel="nofollow noopener"
+        target="_blank"
+      >
+        Получить промокод
+      </a>
+    </div>
+  </div>
+</section>
+`;

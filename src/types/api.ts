@@ -6,8 +6,10 @@ export interface IServiceItem {
     promocode?: string;
 }
 
+export type ICurrency = 'rub' | 'usd' | 'eur';
+
 export interface IBalanceInfo {
     balance: number;
     next_payout: number;
-    currency: 'rub' | 'usd' | 'eur';
+    currency: ICurrency;
 }

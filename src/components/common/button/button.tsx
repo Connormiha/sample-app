@@ -17,6 +17,7 @@ interface IButtonProps {
     tabIndex?: number;
     ariaLabel?: string;
     href?: string;
+    isExternal?: boolean;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
@@ -26,9 +27,26 @@ export default class Button extends React.PureComponent<IButtonProps> {
     };
 
     render(): React.ReactNode {
-        const {size, children, href, style, ...rest} = this.props;
+        const {size, children, href, isExternal, style, ...rest} = this.props;
 
         if (href) {
+            if (isExternal) {
+                return (
+                    <a
+                        href={href}
+                        className={b({
+                            size,
+                            disabled: rest.disabled,
+                            style
+                        })}
+                        target="_blank"
+                        rel="nofollow noopener"
+                    >
+                        {children}
+                    </a>
+                );
+            }
+
             return (
                 <Link
                     to={href}

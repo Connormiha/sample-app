@@ -52,6 +52,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
             <div className={b('link')}>
                 <Button
                     href={item.link}
+                    isExternal
                     size="large"
                     style="color"
                 >

@@ -67,14 +67,7 @@ exports[`Route should render <PageNotFound /> 1`] = `
       <header>
         <div
           class="layout-page-header"
-        >
-          <div />
-          <div
-            class="layout-page-header__right"
-          >
-            .
-          </div>
-        </div>
+        />
       </header>
       <main
         class="layout-page-main__content"
