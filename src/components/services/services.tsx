@@ -3,6 +3,7 @@ import React from 'react';
 import {observer, inject} from 'mobx-react';
 import {IReactComponentWithOmittedProps} from 'types/helpers';
 import notificationsProvider, {INotificationsProviderComponentProps} from 'components/providers/notifications-provider';
+import {lang} from 'lib/utils';
 import debounce from 'lodash/debounce';
 import ServicesStore from 'stores/services-store';
 import ServiceItem from 'components/service-item';
@@ -30,7 +31,7 @@ class Services extends React.Component<IServicesProps> {
     componentDidMount(): void {
         this.props.services.fetchItems()
             .catch(() => {
-                this.props.onAddErrorNotification('Ошибка загрузки', 'Не удалось получить список сервисов');
+                this.props.onAddErrorNotification(lang('errors.common_title'), lang('errors.load_services'));
             });
     }
 
@@ -82,7 +83,7 @@ class Services extends React.Component<IServicesProps> {
                 className={b('filter')}
                 onSubmit={this._handleSubmit}
             >
-                Фильтры
+                {lang('filters')}
                 <div className={b('filter-controls')}>
                     <div className={b('input-filter')}>
                         <TextInput
@@ -98,7 +99,7 @@ class Services extends React.Component<IServicesProps> {
                             type="submit"
                             disabled={isLoading || !filterText}
                         >
-                            Сбросить
+                            {lang('reset')}
                         </Button>
                     </div>
                 </div>
@@ -109,7 +110,7 @@ class Services extends React.Component<IServicesProps> {
     render(): React.ReactNode {
         return (
             <section className={b()}>
-                <h1 className={b('title')}>Сервисы</h1>
+                <h1 className={b('title')}>{lang('services.title')}</h1>
                 {this._renderFilter()}
                 {this._renderServices()}
                 {this._renderLoading()}

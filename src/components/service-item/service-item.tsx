@@ -3,7 +3,7 @@ import React from 'react';
 import Button from 'components/common/button';
 import TextInput from 'components/common/text-input';
 import bem from 'bem-css-modules';
-import {copyToClipboard} from 'lib/utils';
+import {copyToClipboard, lang} from 'lib/utils';
 import ServiceItemStore from 'stores/service-item-store';
 
 const b = bem(style);
@@ -33,7 +33,9 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
 
         return (
             <div className={b('promocode')}>
-                <span>Промокод</span>
+                <span>
+                    {lang('promocode')}
+                </span>
                 <TextInput
                     value={item.promocode}
                     readOnly
@@ -56,7 +58,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
                     size="large"
                     style="color"
                 >
-                    Получить промокод
+                    {lang('get_promocode')}
                 </Button>
             </div>
         );

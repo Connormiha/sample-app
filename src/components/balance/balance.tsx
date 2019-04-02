@@ -3,6 +3,7 @@ import React from 'react';
 import {observer, inject} from 'mobx-react';
 import BalanceStore from 'stores/balance-store';
 import {toNumberFormat} from 'lib/numbers';
+import {lang} from 'lib/utils';
 import notificationsProvider, {INotificationsProviderComponentProps} from 'components/providers/notifications-provider';
 import {IReactComponentWithOmittedProps} from 'types/helpers';
 import {ICurrency} from 'types/api';
@@ -25,7 +26,7 @@ interface IBalanceProps extends INotificationsProviderComponentProps {
 class Balance extends React.Component<IBalanceProps> {
     componentDidMount(): void {
         this.props.balance.fetch().catch(() => {
-            this.props.onAddErrorNotification('Ошибка', 'Не удалось загрузить баланс');
+            this.props.onAddErrorNotification(lang('errors.common_title'), lang('errors.common_title'));
         });
     }
 
@@ -45,14 +46,14 @@ class Balance extends React.Component<IBalanceProps> {
         return (
             <div className={b()}>
                 <div className={b('item')}>
-                    Баланс
+                    {lang('balance')}
                     <div className={b('amount')}>
                         {toNumberFormat(balance.balance)}
                         {currencyMark}
                     </div>
                 </div>
                 <div className={b('item')}>
-                    К выплате
+                    {lang('next_payout')}
                     <div className={b('amount')}>
                         {toNumberFormat(balance.nextPayout)}
                         {currencyMark}

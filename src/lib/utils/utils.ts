@@ -19,6 +19,26 @@ export const copyToClipboard = (text: string) => {
     document.body.removeChild(el);
 };
 
+export const lang = (function (): (key: string) => string {
+    const translations = JSON.parse(document.querySelector('#translations')!.textContent!);
+
+    return (key: string) => {
+        const path = key.split('.');
+        let result: any = translations;
+
+        for (let i = 0; i < path.length; i++) {
+            result = translations[path[i]];
+
+            if (result === undefined) {
+                // Не переведенная часть
+                return key.toUpperCase();
+            }
+        }
+
+        return result;
+    };
+})();
+
 export interface IAsyncCallbacks<T> {
     success?: (res: T) => void;
     fail?: (err: any) => void;
