@@ -7,7 +7,7 @@ export default {
     balance: 'Баланс',
     next_payout: 'К выплате',
     reset: 'Сбросить',
-    filters: 'Фильтры',
+    filter: 'Фильтр',
     get_promocode: 'Получить промокод',
     promocode: 'Промокод',
     services: {

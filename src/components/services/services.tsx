@@ -83,7 +83,7 @@ class Services extends React.Component<IServicesProps> {
                 className={b('filter')}
                 onSubmit={this._handleSubmit}
             >
-                {lang('filters')}
+                {lang('filter')}
                 <div className={b('filter-controls')}>
                     <div className={b('input-filter')}>
                         <TextInput

@@ -17,6 +17,7 @@ interface IButtonProps {
     tabIndex?: number;
     ariaLabel?: string;
     href?: string;
+    fullWidth?: boolean;
     isExternal?: boolean;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
@@ -27,7 +28,7 @@ export default class Button extends React.PureComponent<IButtonProps> {
     };
 
     render(): React.ReactNode {
-        const {size, children, href, isExternal, style, ...rest} = this.props;
+        const {size, children, href, fullWidth, isExternal, style, ...rest} = this.props;
 
         if (href) {
             if (isExternal) {
@@ -36,7 +37,7 @@ export default class Button extends React.PureComponent<IButtonProps> {
                         href={href}
                         className={b({
                             size,
-                            disabled: rest.disabled,
+                            'full-width': fullWidth,
                             style
                         })}
                         target="_blank"
@@ -52,7 +53,7 @@ export default class Button extends React.PureComponent<IButtonProps> {
                     to={href}
                     className={b({
                         size,
-                        disabled: rest.disabled,
+                        'full-width': fullWidth,
                         style
                     })}
                 >
@@ -66,6 +67,7 @@ export default class Button extends React.PureComponent<IButtonProps> {
                 {...rest}
                 className={b({
                     size,
+                    disabled: rest.disabled,
                     style
                 })}
             >

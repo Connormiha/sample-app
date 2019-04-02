@@ -22,8 +22,12 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
 
         return (
             <div className={b('name')}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+                <h3 className={b('title')}>
+                    {item.title}
+                </h3>
+                <p className={b('description')}>
+                    {item.description}
+                </p>
             </div>
         );
     }
@@ -33,7 +37,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
 
         return (
             <div className={b('promocode')}>
-                <span>
+                <span className={b('promocode-text')}>
                     {lang('promocode')}
                 </span>
                 <TextInput
@@ -55,6 +59,7 @@ export default class ServiceItem extends React.Component<IServiceItemProps> {
                 <Button
                     href={item.link}
                     isExternal
+                    fullWidth
                     size="large"
                     style="color"
                 >
