@@ -20,7 +20,8 @@ export const copyToClipboard = (text: string) => {
 };
 
 export const lang = (function (): (key: string) => string {
-    const translations = JSON.parse(document.querySelector('#translations')!.textContent!);
+    const translationsElement = document.querySelector('#translations');
+    const translations = translationsElement ? JSON.parse(translationsElement.textContent!) : {};
 
     return (key: string) => {
         const path = key.split('.');
