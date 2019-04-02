@@ -1,3 +1,5 @@
+import translationsMock from 'mocks/translations-mock';
+
 export const promiseNoop = () => Promise.resolve();
 export const noop = () => {};
 export const delay = (time: number): Promise<void> =>
@@ -20,8 +22,7 @@ export const copyToClipboard = (text: string) => {
 };
 
 export const lang = (function (): (key: string) => string {
-    const translationsElement = document.querySelector('#translations');
-    const translations = translationsElement ? JSON.parse(translationsElement.textContent!) : {};
+    const translations = translationsMock;
 
     return (key: string) => {
         const path = key.split('.');
