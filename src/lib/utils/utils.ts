@@ -27,7 +27,7 @@ export const lang = (function (): (key: string) => string {
         let result: any = translations;
 
         for (let i = 0; i < path.length; i++) {
-            result = translations[path[i]];
+            result = result[path[i]];
 
             if (result === undefined) {
                 // Не переведенная часть

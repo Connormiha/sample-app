@@ -78,7 +78,7 @@ const webpackConfig: webpack.Configuration = {
                 use: styleLoaders
             },
             {
-                test: /\.(png|gif|jpeg|jpg|cur|woff2)$/,
+                test: /\.(png|gif|jpeg|jpg|cur|woff2?)$/,
                 use: [{
                     loader: 'file-loader',
                     options: {
