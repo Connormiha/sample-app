@@ -1,30 +1,45 @@
 .spinner {
     animation: rotate-animation 1s infinite linear;
-    overflow: hidden;
-    box-sizing: border-box;
-    border-color: var(--color-blue);
-    border-style: solid;
+    position: relative;
     pointer-events: none;
-    border-radius: 50%;
-    clip-path: inset(0 50% 0 0);
+    overflow: hidden;
+
+    &__inner {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            box-sizing: border-box;
+            border-color: var(--color-blue);
+            border-style: solid;
+            border-radius: 50%;
+            border-width: 6px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: -100%;
+            width: 100%;
+        }
+    }
 
     &_size {
         &_small {
             width: 16px;
             height: 16px;
-            border-width: 6px;
         }
 
         &_medium {
             width: 28px;
             height: 28px;
-            border-width: 6px;
         }
 
         &_large {
             width: 80px;
             height: 80px;
-            border-width: 6px;
         }
     }
 }

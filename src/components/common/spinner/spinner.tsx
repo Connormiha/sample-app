@@ -16,6 +16,8 @@ export default function Spinner(props: ISpinnerProps): React.ReactElement {
     return (
         <div
             className={b({size})}
-        />
+        >
+            <div className={b('inner')} />
+        </div>
     );
 }

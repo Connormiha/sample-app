@@ -14,13 +14,25 @@ exports[`Storyshots Spinner Default 1`] = `
   >
     <div
       className="spinner spinner_size_large"
-    />
+    >
+      <div
+        className="spinner__inner"
+      />
+    </div>
     <div
       className="spinner spinner_size_medium"
-    />
+    >
+      <div
+        className="spinner__inner"
+      />
+    </div>
     <div
       className="spinner spinner_size_small"
-    />
+    >
+      <div
+        className="spinner__inner"
+      />
+    </div>
   </div>
 </div>
 `;
